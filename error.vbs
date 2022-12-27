@@ -1,0 +1,1 @@
+x=msgbox("Sorry, your version does not support Winget which is needed to update programs." ,0, "Unsupported Windows Version")
