@@ -6,6 +6,7 @@ echo ---------------------
 echo 1: Update All Programs
 echo 2: Exit
 echo 3: Restart Program
+echo 4: Check for Updates
 set /p ans="Option: "
 
 if %ans%==1 (
@@ -19,6 +20,10 @@ goto b
 
 if %ans%==3 (
 goto c
+)
+
+if %ans%==4 (
+goto d
 )
 
 :a
@@ -37,3 +42,9 @@ exit
 echo Restarting
 cls
 apu.bat
+
+:d
+
+echo Launching Download
+
+start https://updates.teamapu.repl.co
