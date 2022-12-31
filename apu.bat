@@ -45,6 +45,4 @@ apu.bat
 
 :d
 
-echo Launching Download
-
-start https://updates.teamapu.repl.co
+update.bat
